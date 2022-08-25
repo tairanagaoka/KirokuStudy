@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.goal_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.goal_action {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.goal_reason {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+#goal_list {
+
+    padding-bottom: 15px;
+}
+
+#caution {
+    padding-left: 50px;
+}
+
+.button-panel {
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
