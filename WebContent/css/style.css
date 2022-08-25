@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+body {
+    color: #2b546a;
+    font-family: "Hiragino Kaku Gothic Pro", Meiryo, "MS PGothic", Helvetica,
+        Arial, sans-serif;
+    background-color: #f9fbfe;
+    margin: 0px;
+}
+
+#wrapper {
+    display: block;
+}
+
+#header {
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgb(160 166 179/ 30%);
+}
+
+#header_menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#content {
+    width: 94%;
+    margin-top: 15px;
+    margin: 15px auto 0 auto;
+    padding: 0 auto;
+}
+
+h1 {
+    width: 20%;
+    padding: 15px;
+    font-size: 20px;
+    color: #2b546a;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #2b546a;
+    padding: 15px;
+    font-size: 15px;
+}
+
+table, tr, th, td {
+    border: 1px solid #c1c1c1;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+th {
+    width: 26%;
+    padding: 10px 2%;
+}
+
+td {
+    width: 66%;
+    padding: 10px 2%;
+}
+
+button {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 50px;
+    color: #2b546a;
+}
+
+#flush_success {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #6091d3;
+    background-color: #e8f0fe;
+}
+
+#flush_error {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+#logout {
+    color: #2b546a;
+    text-align: right;
+}
+
+#goal_title {
+    text-align: center;
+    width: 100%;
+    color: #2b546a;
+}
+
+#goal_index {
+    padding: 0px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#goal_index a {
+    padding: 0px;
+    color: #4e4e4e;
+}
+
+#goal_index h3 {
+    padding-top: 10px;
+    border-top: 1px solid #333333;
+    width: 100%;
+}
+
+#pagination {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#redirect {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#show_goal {
+    text-align: center;
+    padding: 20px;
+}
+
+#redirect a {
+    text-align: left;
+    color: #2b546a;
+}
+
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #2b546a; /*文字色*/
+    background: #FFF;
+    border-radius: 10px; /*角の丸み*/
+    box-shadow: 0 1px 3px rgb(160 166 179/ 30%);
+}
+
+.box2 p {
+    margin: 0;
+    padding: 0;
+    color: #2b546a; /*文字色*/
+}
+
+#destroy {
+    color: #2b546a;
+}
+
+
+
+#weekly_goal_item {
+    padding: 20px;
+}
+
+#weekly_goal_button {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#header_list {
+    margin-left: 55%;
+}
+
+#header_list a {
+    text-align: right;
+    font-size: 5px;
+}
+
+#first_message{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 200px;
+}
+#first_message a{
+    font-size: 30px;
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
