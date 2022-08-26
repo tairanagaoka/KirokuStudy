@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
-#report {
 
-}
-
-#report_item {
+#report_item{
     padding: 20px;
 }
 
@@ -14,7 +11,7 @@
     padding-left: 20px;
 }
 
-.return_button {
+.return_button{
     color: #333333;
 }
 
